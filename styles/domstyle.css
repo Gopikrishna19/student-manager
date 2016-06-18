@@ -1,0 +1,74 @@
+ul, ol, li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+* {
+    font-size: 12px;
+    font-family: Arial;
+    line-height: 20px;
+    margin: 0px;
+}
+body {
+    background-color: #FFF;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x;
+}
+html, body {
+    height: 100%;
+}
+h1 {
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px groove threedface;
+    margin: 0px 0px 20px;
+}
+h2 {    
+    font-size: 14px;
+    margin: 15px 0px 10px 0px;
+}
+a, a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+span[g] { color: #484; font-weight: bold; }
+span[r] { color: #844; font-weight: bold; }
+span[b] { color: #448; font-weight: bold; }
+span[f] { width: 125px; float: left; margin-top: 3px; }
+span[gg] { color: #0f0; font-weight: bold; }
+span[rr] { color: #f00; font-weight: bold; }
+span[bb] { color: #00f; font-weight: bold; }
+
+table.analysis {
+	width: 100%;
+	border: 1px solid #300;
+	border-spacing: 0px
+}
+table.analysis tr:first-child {
+	background-color: #300;
+	color: #FFF;
+}
+table.analysis td {
+	width: 14%;
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #300
+}
+table.analysis td[l]{
+	width: 20%;
+}
+fieldset {
+	padding: 30px 10px 20px 30px;
+	border-width: 2px 0px 0px;
+	border-color: #484 #000 #600;
+	border-style: groove;
+}
+legend {
+	border: 2px groove #484;
+	padding: 2px 5px;
+	font-weight: bold;
+	border-radius: 20px;
+	margin-left: 20px;
+}

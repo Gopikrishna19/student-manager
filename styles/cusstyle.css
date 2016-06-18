@@ -1,0 +1,198 @@
+/*Page Setup */
+#header {
+    background-image: url(../images/header.jpg);
+    height: 100px;
+    background-position: center top;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-color: #222;
+}
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -50px;
+}
+.center-it {
+    width: 900px;
+    margin: auto;
+}
+#content {
+    padding-top: 20px;
+    height: 100%;
+}
+.strip {
+    background-image: url(../images/strip.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+    height: 3px;
+}
+.stripb {
+    background-image: url(../images/stripb.png);
+    background-position: center top;
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    height: 2px;
+}
+#home-btn, #sets-btn, #lout-btn {
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 20px 40px;
+    height: 20px;
+    width: 20px;    
+    margin-left: 10px;
+}
+#home-btn:hover, #sets-btn:hover, #lout-btn:hover { background-position: center bottom; }
+#sets-btn { background-image: url(../images/sets.png); }
+#lout-btn { background-image: url(../images/lout.png); }
+#nav { 
+    float: right;
+    margin-right: 25px;
+    margin-top: 65px;
+}
+#nav li, #nav li a {
+    display: block;
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #CCC;
+    height: 20px;
+    cursor: pointer;
+}
+#nav li.s { color: #9F9; }
+#nav li:hover, #nav li a:hover { color: #fff; }
+
+/*Content*/
+.alert {
+    background-color: #eed;
+    padding: 25px;
+    box-shadow: inset 0px 0px 5px #fbdfbf;
+    border-radius: 5px;
+}
+.alert li { list-style-type: circle; margin-left: 25px; }
+.alert li[b] { list-style-type: square; }
+.btnplus {
+    background-color: transparent;
+    background-image: url("../images/btnplus.png");
+    background-size: 25px 75px;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: left;    
+}
+.btnplus:hover { background-position: center; }
+.btnplus:active { background-position: bottom; }
+.table { overflow: auto; }
+.table div[h], .table div[d], .table div[hl] {
+    width: 221px;
+    float: left;
+    padding: 2px 5px;
+}
+.table div[d] { font-size: 14px; }
+.table div[h] { color: #FFF; background-color: #2b1919; }
+.table div[hl] { color: #44F; background-color: #e7e5e5; }
+.table div[d].expan {
+    background-image: url(../images/expand.png);
+    background-size: auto 200%;
+    background-repeat: no-repeat;
+    background-position: center top;    
+}
+.table div[d].expan:hover { background-color: #DFD; }
+.table div[d].expan:active { background-color: #DDF; }
+.table div[d].expan.s { background-position: center bottom; }
+.text {
+    width: 190px;
+    padding: 0px 0px 0px 5px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #999;
+    height: 22px;
+}
+select.text { height: 24px; }
+textarea.text { height: auto; }
+.text:focus { color: #fff; background-color: #666; }
+.row { overflow: auto; clear: both}
+.btn {
+    background-color: #EEE;
+    outline: none;
+    border-radius: 5px;    
+    border: 1px solid #DDD;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+.btn[b] { background-color: #666; color: #FFF; }
+.btn[g] { background-color: #484; color: #FFF; }
+.btn[r] { background-color: #844; color: #FFF; }
+.btn:hover { border: 1px solid #000; }
+.tab, .tab.exp {
+    background-image: url(../images/switch.png);
+    width: 85px;
+    background-size: 100px 50px;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #666;
+    height: 17px;
+    float: left;
+    cursor: pointer;
+    padding: 3px 10px 5px 10px;
+    font-weight: bold;
+}
+.tab.exp {
+    background-image: url(../images/export.png);
+    background-size: 25px;
+    background-position: right center;
+    width: 100px;
+    text-align: left;
+}
+.tab[long] {
+    background-image: url(../images/switch-l.png);
+    background-size: 200px 50px;
+    width: 185px;
+    float: none;
+    margin-bottom: 5px;
+}
+.tab:hover, .tab.exp:hover { color: #000; }
+.tab.selected { color: #000; background-position: center bottom; }
+.tab.exp.selected { background-position: right center; }
+.note {
+    height: 200px;
+    width: 500px;
+    margin: 25px auto 0px auto;
+    background-color: #fff;
+    padding: 10px;    
+    background-image: url(../images/notebg.png);
+    background-size: 100% 100%;
+}
+.selectPeriod {
+    background-image: url(../images/period.png);
+    background-size: 40px 120px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+}
+.selectPeriod:hover { background-position: center top; }
+.selectPeriod.s { background-position: center bottom; }
+#progress {
+	position: absolute;
+	width: 100px;
+	margin-left: -50px;
+	top: 102px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgba(255,255,187,0.5);
+	padding: 5px 15px;
+	font-size: 14px;
+	border: 2px  rgba(255, 221, 187, 0.5) solid;
+	display: none;
+}
